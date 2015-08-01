@@ -29,12 +29,28 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 1.0, 0.793063, 0.001608, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-7",
+					"linecount" : 9,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1144.5, 343.5, 150.0, 127.0 ],
+					"text" : "TODO: Smooth the input from the sensor. Could be the potentiometer (?) Is there a way to do this in software? Refer to this thread: https://cycling74.com/forums/topic/smoothing-out-numbers/\n"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-14",
 					"maxclass" : "playbar",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 653.5, 391.0, 290.0, 34.0 ]
+					"patching_rect" : [ 653.5, 390.0, 290.0, 34.0 ]
 				}
 
 			}
@@ -3770,7 +3786,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 436.0, 498.5, 109.0, 21.0 ],
+					"patching_rect" : [ 436.0, 502.5, 109.0, 21.0 ],
 					"text_width" : 62.0
 				}
 
@@ -3950,7 +3966,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 436.0, 616.0, 290.0, 214.0 ]
+					"patching_rect" : [ 436.0, 590.0, 290.0, 214.0 ]
 				}
 
 			}
@@ -4212,7 +4228,7 @@
 					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1058.5, 441.0, 445.5, 441.0 ],
+					"midpoints" : [ 1058.5, 434.0, 445.5, 434.0 ],
 					"source" : [ "obj-44", 0 ]
 				}
 
