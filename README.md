@@ -1,5 +1,5 @@
-# Max-and-Jitter-Patches
-Collection of miscellaneous Max and Jitter patches   
+# Max-and-PD-Patches
+Collection of miscellaneous Max and PD patches   
 
 
 * AmplitudeCheck: loads in and plays an audio-file, and displays the RMS and Peak amplitude values
