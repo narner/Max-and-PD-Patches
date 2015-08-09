@@ -19,6 +19,11 @@ void setup() {
     
   int switchOneState = 0;         // current state of the switch
   int lastSwitchOneState = 0;     // previous state of the switch switch pins as an input
+  int switchTwoState = 0;         // current state of the switch
+  int lastSwitchTwoState = 0;     // previous state of the switch switch pins as an input
+  int switchThreeState = 0;         // current state of the switch
+  int lastSwitchThreeState = 0;     // previous state of the switch switch pins as an input
+
   pinMode(switchOnePin, INPUT);
   pinMode(switchTwoPin, INPUT);
   pinMode(switchThreePin, INPUT);
@@ -46,9 +51,7 @@ void loop() {
     Serial.println("Switch one is off");
   }
   
-  
-  
-  
+ 
   if (switchTwoState != lastSwitchTwoState) {
     if (switchTwoState == HIGH) {
     Serial.println("Switch two is on");
@@ -62,16 +65,17 @@ void loop() {
     Serial.println("Switch three is on");
   }
   else {
-    Serial.println("Switch thre is off");
+    Serial.println("Switch three is off");
   }
  }
 }
   // Delay a little bit to avoid bouncing
   delay(50);  
 }
+
 // save the current state as the last state,
 //for next time through the loop
-lastSwitchOneState   = switchOnePin;
-lastSwitchTwoState   = switchTwoPin;
-lastSwitchThreeState = switchThreePin;
+lastSwitchOneState   = switchOneState;
+lastSwitchTwoState   = switchTwoState;
+lastSwitchThreeState = switchThreeState;
 }
