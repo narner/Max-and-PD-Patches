@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 64.0, 48.0, 1440.0, 805.0 ],
+		"rect" : [ 0.0, 48.0, 1440.0, 805.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -437,7 +437,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 521.0, 150.0, 47.0 ],
+					"patching_rect" : [ 773.75, 29.0, 150.0, 47.0 ],
 					"text" : "Check the box and click \"open\" to turn on your camera.\n"
 				}
 
@@ -507,7 +507,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1571.0, 417.0, 82.0, 20.0 ],
+					"patching_rect" : [ 1445.0, 337.5, 82.0, 20.0 ],
 					"text" : "Prest Three"
 				}
 
@@ -535,7 +535,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 337.5, 343.5, 75.0, 20.0 ],
+					"patching_rect" : [ 327.5, 327.5, 75.0, 20.0 ],
 					"text" : "Preset One\n"
 				}
 
@@ -4267,7 +4267,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 578.0, 20.0, 20.0 ]
+					"patching_rect" : [ 776.75, 86.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -4280,7 +4280,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 7.0, 613.0, 48.0, 20.0 ],
+					"patching_rect" : [ 776.75, 121.0, 48.0, 20.0 ],
 					"text" : "qmetro"
 				}
 
@@ -4294,7 +4294,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 86.0, 615.0, 37.0, 18.0 ],
+					"patching_rect" : [ 855.75, 123.0, 37.0, 18.0 ],
 					"text" : "open"
 				}
 
@@ -4308,7 +4308,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 7.0, 647.0, 60.0, 20.0 ],
+					"patching_rect" : [ 776.75, 155.0, 60.0, 20.0 ],
 					"text" : "jit.qt.grab"
 				}
 
@@ -4331,6 +4331,7 @@
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 786.25, 258.0, 480.0, 258.0, 480.0, 567.0, 298.5, 567.0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
