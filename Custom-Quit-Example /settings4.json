@@ -1,0 +1,18 @@
+{
+	"pattrstorage" : 	{
+		"name" : "settings4",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"settings2" : [ 312, 363, 354, 351, 348, 336, 381 ],
+					"presetmenu4" : [ "Vazio 3" ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
